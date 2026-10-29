@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rayver Andaleon | Software Developer Portfolio</title>
+
+    <script>
+        try {
+            const savedTheme = localStorage.getItem("portfolio-theme");
+
+            if (savedTheme === "light" || savedTheme === "dark") {
+                document.documentElement.dataset.theme = savedTheme;
+            }
+        } catch (error) {}
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <div class="logo">
+                Port<span>Folio.</span>
+            </div>
+
+            <div class="nav-links">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#about" class="nav-link">
+                    About Me
+                </a>
+
+                <a href="#features" class="nav-link">
+                    Features
+                </a>
+
+                <a href="#skills" class="nav-link">
+                    Skills
+                </a>
+
+                <a href="#portfolio" class="nav-link">
+                    Portfolio
+                </a>
+
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+
+                <button
+                    type="button"
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Switch to light mode"
+                    title="Switch to light mode">
+
+                    <i class="fa-solid fa-sun" aria-hidden="true"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-container">
+
+            <div class="hero-content reveal">
+
+                <p class="welcome">
+                    WELCOME TO MY WORLD
+                </p>
+
+                <h1>
+                    Hi, I'm
+                    <span>Rayver Andaleon</span>
+                </h1>
+
+                <h2>
+                    Software Developer
+                </h2>
+
+                <p class="hero-description">
+                    Bachelor of Science in Information Technology graduate
+                    from <strong>Torres Capitol College</strong>, focused on
+                    software development, web technologies, database systems,
+                    and application development. Passionate about creating
+                    reliable, practical, and user-friendly technology
+                    solutions while continuously developing my technical skills.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#portfolio"
+                       class="btn primary-btn">
+
+                        View Projects
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                    <a href="#contact"
+                       class="btn secondary-btn">
+
+                        Contact Me
+
+                    </a>
+
+                </div>
+
+
+                <div class="social-links">
+
+                        <a href="https://www.facebook.com/profile.php?id=61591415003581"
+                              title="Facebook"
+                              target="_blank"
+                              rel="noopener noreferrer">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+                        <a href="https://www.instagram.com/synvrl/"
+                              title="Instagram"
+                              target="_blank"
+                              rel="noopener noreferrer">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="mailto:rayverandaleon166@gmail.com"
+                       title="Email">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+
+                    <a href="tel:09931428590"
+                       title="Contact Number">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image reveal">
+
+                <div class="profile-frame">
+
+                    <div class="profile-bg"></div>
+
+                    <img
+                        src="profile.jpg"
+                        alt="Rayver Andaleon"
+                    >
+
+                    <div class="photo-placeholder">
+                        RA
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT ME -->
+    <section id="about"
+             class="section about-section">
+
+        <div class="section-container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    Professional
+                    <span>Background</span>
+                </h2>
+
+                <p>
+                    A brief overview of my education and community training.
+                </p>
+
+            </div>
+
+
+            <div class="about-card reveal">
+
+                <div class="about-icon">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p class="about-label">
+                        EDUCATION
+                    </p>
+
+                    <h3>
+                        Bachelor of Science in Information Technology
+                    </h3>
+
+                    <h4>
+                        Torres Capitol College
+                    </h4>
+
+                    <p class="graduate-status">
+                        BSIT Graduate
+                    </p>
+
+                    <div class="about-line"></div>
+
+                    <p class="about-description">
+                        My academic background has provided me with a strong
+                        foundation in programming, software development,
+                        database systems, web technologies, and information
+                        technology. I apply these skills through practical
+                        projects and continuously work on improving my
+                        technical knowledge and development capabilities.
+                    </p>
+
+                    <div class="about-line"></div>
+
+                    <p class="about-label">
+                        CIVIC WELFARE TRAINING
+                    </p>
+
+                    <h3>
+                        NSTP &ndash; Civic Welfare Training Service (CWTS)
+                    </h3>
+
+                    <h4>
+                        Torres Capitol College
+                    </h4>
+
+                    <p class="about-description">
+                        Completed community service and civic welfare training
+                        focused on community involvement, social responsibility,
+                        and volunteerism.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section id="features"
+             class="section">
+
+        <div class="section-container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    WHAT I DO
+                </p>
+
+                <h2>
+                    Professional
+                    <span>Capabilities</span>
+                </h2>
+
+                <p>
+                    Areas where I can design, develop, and improve
+                    technology-based solutions.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+
+                <div class="feature-card reveal">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <h3>
+                        Software Development
+                    </h3>
+
+                    <p>
+                        Developing practical software applications
+                        using programming and logical problem solving.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-window-maximize"></i>
+                    </div>
+
+                    <h3>
+                        GUI Applications
+                    </h3>
+
+                    <p>
+                        Creating user-friendly desktop applications
+                        with clean and organized interfaces.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <h3>
+                        Database Systems
+                    </h3>
+
+                    <p>
+                        Organizing, storing, and managing application
+                        data using database technologies.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        Building responsive and professional
+                        websites using modern web technologies.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+
+                    <h3>
+                        Problem Solving
+                    </h3>
+
+                    <p>
+                        Analyzing problems and developing logical
+                        solutions for different technical situations.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card reveal">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+
+                    <h3>
+                        System Troubleshooting
+                    </h3>
+
+                    <p>
+                        Identifying errors, debugging applications,
+                        and improving system functionality.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills"
+             class="section skills-section">
+
+        <div class="section-container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    TECHNICAL EXPERTISE
+                </p>
+
+                <h2>
+                    My <span>Skills</span>
+                </h2>
+
+                <p>
+                    Technologies and professional capabilities
+                    developed through my studies and projects.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-logo python-logo">
+
+                        <i class="fa-brands fa-python"></i>
+
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>
+                            Python Development
+                        </h3>
+
+                        <p>
+                            Python programming, application development,
+                            automation, and system logic.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-logo backend-logo">
+
+                        <i class="fa-solid fa-server"></i>
+
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>
+                            Backend Development
+                        </h3>
+
+                        <p>
+                            Backend logic, application processing,
+                            data handling, and system functionality.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-logo frontend-logo">
+
+                        <i class="fa-solid fa-code"></i>
+
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>
+                            Frontend Development
+                        </h3>
+
+                        <p>
+                            HTML, CSS, JavaScript, responsive layouts,
+                            and interactive interfaces.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-logo database-logo">
+
+                        <i class="fa-solid fa-database"></i>
+
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>
+                            Database Development
+                        </h3>
+
+                        <p>
+                            SQLite, database organization,
+                            data storage, and record management.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-logo gui-logo">
+
+                        <i class="fa-solid fa-desktop"></i>
+
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>
+                            GUI Development
+                        </h3>
+
+                        <p>
+                            Tkinter, desktop interfaces,
+                            forms, buttons, and user interaction.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-logo problem-logo">
+
+                        <i class="fa-solid fa-brain"></i>
+
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>
+                            Problem Solving
+                        </h3>
+
+                        <p>
+                            Logical thinking, debugging,
+                            troubleshooting, and solution development.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio"
+             class="section">
+
+        <div class="section-container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    MY WORK
+                </p>
+
+                <h2>
+                    Selected <span>Projects</span>
+                </h2>
+
+                <p>
+                    Some of the systems and applications
+                    developed during my studies and practice.
+                </p>
+
+            </div>
+
+
+            <div class="portfolio-grid">
+
+
+                <div class="project-card reveal">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-icon">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                    </div>
+
+                    <h3>
+                        Grading System
+                    </h3>
+
+                    <p>
+                        A system designed to calculate and manage
+                        student grades and academic records.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>
+                            JAVASCRIPT
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-card reveal">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-icon">
+
+                        <i class="fa-solid fa-cash-register"></i>
+
+                    </div>
+
+                    <h3>
+                        Point of Sale
+                    </h3>
+
+                    <p>
+                        A sales management application for handling
+                        products, transactions, and sales records.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>
+                            PYTHON
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-card reveal">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-icon">
+
+                        <i class="fa-solid fa-laptop-code"></i>
+
+                    </div>
+
+                    <h3>
+                        Digital Portfolio
+                    </h3>
+
+                    <p>
+                        A responsive personal portfolio website
+                        showcasing projects, skills, and background.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>
+                            HTML
+                        </span>
+
+                        <span>
+                            CSS
+                        </span>
+
+                        <span>
+                            JAVASCRIPT
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-card reveal">
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                    <div class="project-icon">
+
+                        <i class="fa-solid fa-database"></i>
+
+                    </div>
+
+                    <h3>
+                        Database Application
+                    </h3>
+
+                    <p>
+                        An application focused on structured data
+                        storage and database record management.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>
+                            SQLITE
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-card reveal">
+
+                    <div class="project-number">
+                        05
+                    </div>
+
+                    <div class="project-icon">
+
+                        <i class="fa-solid fa-window-restore"></i>
+
+                    </div>
+
+                    <h3>
+                        GUI Application
+                    </h3>
+
+                    <p>
+                        A desktop application with an organized
+                        graphical user interface for easier interaction.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>
+                            PYTHON
+                        </span>
+
+                        <span>
+                            TKINTER
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-card reveal">
+
+                    <div class="project-number">
+                        06
+                    </div>
+
+                    <div class="project-icon">
+
+                        <i class="fa-solid fa-diagram-project"></i>
+
+                    </div>
+
+                    <h3>
+                        Information System
+                    </h3>
+
+                    <p>
+                        A computerized information system designed
+                        to organize records and simplify workflows.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>
+                            PYTHON
+                        </span>
+
+                        <span>
+                            DATABASE
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact"
+             class="section contact-section">
+
+        <div class="section-container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Let's <span>Connect</span>
+                </h2>
+
+                <p>
+                    Have a project, opportunity, or question?
+                    Feel free to get in touch.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <div class="contact-info reveal">
+
+
+                          <a class="contact-item"
+                              href="mailto:rayverandaleon166@gmail.com">
+
+                        <div class="contact-icon">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Email
+                            </h3>
+
+                            <p>
+                                rayverandaleon166@gmail.com
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                          <a class="contact-item"
+                               href="https://www.facebook.com/profile.php?id=61591415003581"
+                              target="_blank"
+                              rel="noopener noreferrer">
+
+                        <div class="contact-icon">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Facebook
+                            </h3>
+
+                            <p>
+                                Rayver Andaleon
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                          <a class="contact-item"
+                               href="https://www.instagram.com/synvrl/"
+                              target="_blank"
+                              rel="noopener noreferrer">
+
+                        <div class="contact-icon">
+
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Instagram
+                            </h3>
+
+                            <p>
+                                Rayver Andaleon
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Contact Number
+                            </h3>
+
+                            <p>
+                                09931428590
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <form class="contact-form reveal"
+                      id="contactForm">
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                    >
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Your Message"
+                        required
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn">
+
+                        Send Message
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                Port<span>Folio.</span>
+            </div>
+
+            <p>
+                © 2026 Rayver Andaleon.
+                All Rights Reserved.
+            </p>
+
+            <p class="footer-school">
+                BSIT Graduate • Torres Capitol College
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
